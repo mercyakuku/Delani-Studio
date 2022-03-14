@@ -59,60 +59,53 @@
     </div>
 
     <div class="s_image">
-        <img src="./images/assets/backgrounds/s_image.jpg" class="card-img" alt="s_image">
-        <div class="services-overlay">
-          <h3>SERVICES</h3>
-          <p>Before we sign a contract or write a line of code, our team will spend the neccessary time needed to understand your product vission.</p>
-          <p>The outcome of the scoping session a proposal or high-level statement of work.</p>
-          <p>Based on your requirements, we can provide a complete offering or just the piece you need. </p>
-        </div>
-    </div>
+         <img src="./images/assets/backgrounds/s_image.jpg" class="card-img" alt="s_image">
+            <h3>SERVICES</h3>
+            <p>Before we sign a contract or write a line of code, our team will spend the neccessary time needed to understand your product vission.</p>
+            <p>The outcome of the scoping session a proposal or high-level statement of work.</p>
+            <p>Based on your requirements, we can provide a complete offering or just the piece you need. </p>
     </div> 
     <div class="what-we-do">
-        <h4>WHAT WE DO
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="row">
-                       <div id="design">
+         <h4>WHAT WE DO</h4>
+             <div class="row">
+                 <div class="col-md-4">
+                        <div id="design">
                             <div id="design-image">
-                             <img src="./images/assets/services_icons/design_icon.png" alt="design">
+                                 <img src="./images/assets/services_icons/design_icon.png" alt="design" id="image1">
                              
-                              <h2 class="title">DESIGN</h2>
-                              <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
-                             <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                                 <h2 class="title">DESIGN</h2>
+                              
+                                 <p class="design-text">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. 
+                                  Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
                             </div>
                        </div>
                     </div>
-                </div>
-            </div>
-        </h4>
-    </div>
 
     <div class="col-md-4">
-        <div class="row">
+    
            <div id="development">
                <div id="development-image">
                   <img src="./images/assets/services_icons/dev_icon.png" alt="development">
                 </div>   
                 <h2 class="title">DEVELOPMENT</h2>
-                <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-                <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                <p class="development-text">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                    They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
            </div>    
-        </div>
     </div> 
     
     <div class="col-md-4">
-        <div class="row">       
+        
              <div id="product">
                 <div id="product-image">
                   <img src="./images/assets/services_icons/product_icon.png" alt="products">
                 </div>
                 <h2 class="title">PRODUCT MANAGEMENT</h2>
-                <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-                <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                <p class="product-text">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                    They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
             </div>
-        </div>
+    
     </div>
+ </div>
     
     <div class="portfolio">
         <h5>PORTFOLIO</h5>
@@ -133,7 +126,7 @@
             <img src="./images/assets/portfolio/image4.jpg" alt="image4">
             <p id="overlay4" class="text">Jim Carry</p>
           </div>
-        </div>
+        </div><br><br>
         <div class="row" id="portfolio">
             <div class="col-md-3" id="image5">
               <img src="./images/assets/portfolio/image5.jpg" alt="image5">
@@ -155,9 +148,27 @@
       </div> 
     <div class="container-fluid contact">
         <h6>CONTACT US</h6>
-        <div class="c_image">
-            <img src="./images/assets/backgrounds/c_image.jpg" class="card-img" alt="c_image">
-        </div>
+        <form>
+            <div class="mb-3">
+                <label for="" class="form-label">Name</label><br>
+                <input type="name" class="form-input" id="name" aria-describedby="nameHelp" required>
+            
+               <div class="mb-3">
+                  <label for="" class="form-label">Email</label><br>
+                  <input type="email" class="form-input" id="email" aria-describedby="emailHelp" required>
+                 </div>
+               <div class="mb-12">
+                  <label for="" class="form-label"></label><br>
+                  <input type="Your message here" class="form-input" id="text" aria-describedby="Help" required>
+               </div>
+               <div>
+                 <button type="submit" class="btn btn-primary" value="submit">Submit</button>
+                 <a href="mailchimp.html"><button type="button" class="btn btn-primary" value="subscribe">Subscribe</button></a>
+               </div>
+            </div>
+            
+        </form>
+    </div>
         <footer>
             <img src="./images/assets/social_icons/twitter.png" alt="twitter">
             <img src="./images/assets/social_icons/dribble.png" alt="dribble">
