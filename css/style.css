@@ -12,7 +12,7 @@
     text-align: center;
     padding-top:0%; 
     font-family: 'Gabriela', serif;
-    margin-bottom: auto;
+    margin-bottom: 5%;
 }
 
 .h_image{
@@ -24,10 +24,10 @@
   }
 
   #logo{
-    margin-top: 12px;
-    margin-bottom: 24px;
-    width: 70px;
-    height: 70px;;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 300px;;
   }
 
   .mouse_click{
@@ -52,3 +52,30 @@
     }
   }
   
+  .about{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 0%;
+    font-family: 'Copse', serif;
+  }
+  #about{
+    font-family: 'Gabriela', serif;
+  }
+  .services{
+    text-align: center;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Copse', serif;
+    font-size: 18px;
+  }
+  .services h2{
+    font-family: 'Gabriela', serif;
+    
+  }
+  #servicesoverlay{
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
