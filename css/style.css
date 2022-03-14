@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-.{
+.card-img-overlay{
     text-align: center;
-    position: bottom;
+    position: absolute;
+    margin-bottom: auto;
+    padding-top: 5%;
 }
