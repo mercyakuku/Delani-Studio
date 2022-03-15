@@ -1,15 +1,4 @@
-//$(document).ready(function(){
-   // $("#development-image").click(function(){
-    //  $("#development-image").slideDown('1500').hide('1000');
-    //  $("#development").show('1500');
-  //  });
-    //$("#development").click(function(){
-      //$("#development").slideUp('1500');
-     // $("#development-image").slideDown('1500');
-    //});
-  //});
-  
- $(document).ready(function(){
+   $(document).ready(function(){
     $("#image1").click(function(){
       $(".design-text").show('1500');
       $("#image1").hide();
@@ -20,13 +9,76 @@
   });
 });
   
-  //$(document).ready(function(){
-  //  $("#product-image").click(function(){
-    //  $("#product-image").slideDown('1500').hide('1000');
-  //    $("#product").show('1500');
-    //});
-  //  $("#product").click(function(){
-     // $("#product").slideUp('1500');
-    //  $("#product-image").slideDown('1500');
-    //});
- // });//
+$(document).ready(function(){
+    $("#image2").click(function(){
+      $(".development-text").show('1500');
+      $("#image2").hide();
+    });
+    $(".development-text").click(function(){
+      $("#image2").show('1500');
+      $(".development-text").hide();
+  });
+});
+
+$(document).ready(function(){
+    $("#image3").click(function(){
+      $(".product-text").show('1500');
+      $("#image3").hide();
+    });
+    $(".product-text").click(function(){
+      $("#image3").show('1500');
+      $(".product-text").hide();
+  });
+});
+
+$(document).ready(function(){
+    $("#work1").mouseover(function(){
+      $("#overlay").show();
+    }).mouseout(function(){
+      $(".text").hide();
+    });
+  });
+  $(document).ready(function(){
+    $("#image2").mouseover(function(){
+      $("#overlay2").show();
+    }).mouseout(function(){
+      $("#overlay2").hide();
+    });
+  });
+  $(document).ready(function(){
+    $("#image3").mouseover(function(){
+      $("#overlay3").show();
+    }).mouseout(function(){
+      $("#overlay3").hide();
+    });
+  });
+  $(document).ready(function(){
+    $("#image4").mouseover(function(){
+      $("#overlay4").show();
+    }).mouseout(function(){
+      $("#overlay4").hide();
+    });
+  });
+  
+  $(document).ready(function(){
+    $("#image5").mouseover(function(){
+      $("#overlay5").show();
+    }).mouseout(function(){
+      $("#overlay5").hide();
+    });
+    $("#image6").mouseover(function(){
+      $("#overlay6").show();
+    }).mouseout(function(){
+      $("#overlay6").hide();
+    });
+    $("#image7").mouseover(function(){
+      $("#overlay7").show();
+    }).mouseout(function(){
+      $("#overlay7").hide();
+    });
+    $("#image8").mouseover(function(){
+      $("#overlay8").show();
+    }).mouseout(function(){
+      $(".text").hide();
+    });
+  });
