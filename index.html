@@ -145,11 +145,10 @@
       </div><br><br>
     <div class="container-fluid contact">
         <h6>CONTACT US</h6>
-        <form>
+        <!--<form>
             <div class="mb-3">
-                <label for="" class="form-label">Name</label><br>
-                <input type="name" class="form-input" id="name" aria-describedby="nameHelp" required>
-            
+                <input type="hidden" name="u"><br>
+                <input type="hidden" id="name" aria-describedby="nameHelp" required>
                <div class="mb-3">
                   <label for="" class="form-label">Email</label><br>
                   <input type="email" class="form-input" id="email" aria-describedby="emailHelp" required>
@@ -163,8 +162,19 @@
                  <a href="mailchimp.html"><button type="button" class="btn btn-primary" value="subscribe">Subscribe</button></a>
                </div>
             </div>
-            
-        </form>
+        </form>-->
+     <form>
+        <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0">
+        <input type="hidden" name="id" value="dbf7e27685">
+        <div class="form-group form-inline">
+          <input type="text" class="form-control" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="">
+          <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+     </form>
     </div>
         <footer>
             <img src="./images/assets/social_icons/twitter.png" alt="twitter">
