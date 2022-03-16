@@ -11,9 +11,10 @@
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding-top:25%; 
+    /*padding-top:25%;*/ 
     font-family: 'Gabriela', serif;
     margin-bottom: 5%;
+    height: 600px;
 }
 
 .h_image h1{
@@ -25,20 +26,18 @@ margin: 5px;
   padding: 2px;
 }
 
-.logo{
-  /*margin-top: 12px;*/
-  /*margin-bottom: 24px;*/
-  width: 70px;
-  height: 70px;
+#logo{
+  margin-top: 12px;
+  margin-bottom: 24px;
   }
 
-  .mouse_click{
+  #mouse_click{
     padding-top : 22px;
     margin-top: 10%;
     padding-bottom: 30px; 
   }
 
-  .mouse_click {
+  #mouse_click {
     animation: bounce 2s infinite;
   }
   
@@ -113,7 +112,7 @@ margin: 5px;
     margin-top: -70%;
     font-family: 'Delius Swash Caps', cursive;
     border: 2px solid white;
-    /*z-index: 1;*/
+    z-index: -1;
     position: relative;
     display: none;
   }
