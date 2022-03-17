@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.col-md-12{
-  background-color: black;
-}
-
 .h_image{
     background-position: center center;
     background-image: url(../images/assets/backgrounds/h_img.jpg);
