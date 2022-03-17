@@ -14,7 +14,7 @@ This project is of a web application for Delani studio that shows details about 
 * jQuery
 
 ## Live Page 
-
+https://mercyakuku.github.io/Delani-Studio/
 
 ## Setup/Installation Requirements
 For a collaborator to open this page, he or she requires:
